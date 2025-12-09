@@ -12,28 +12,84 @@
             <h1 class="site-title">Abdulgafar Abdurrasheed</h1>
             <nav class="main-nav">
                 <ul class="nav-list">
-                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Education & Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section id="home">
-            <h2>Abdulgafar Abdurrasheed Olamilekan</h2>
-            <p>I craft beautiful, functional digital experiences.</p>
+    <main class="main-content">
+        <section id="home" class="home-section">
+            <div class="section-container">
+                <h2 class="section-title">Abdulgafar Abdurrasheed Olamilekan</h2>
+                <div class="about-content">
+                    <img src="https://port0f0li0.netlify.app/1749916534675.jpg" alt="Profile" class="profile-image">
+                    <div class="about-text">
+                        <p>I craft beautiful, functional digital experiences that solve real problems.</p>
+                        <a href="My Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I’m a dedicated Computer Science student and aspiring full-stack web developer.</p>
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <h2 class="section-title">About Me</h2>
+                <p>Hello! I’m a dedicated Computer Science student and aspiring full-stack web developer...</p>
+            </div>
         </section>
 
-        <section id="contact">
-            <h2>Get In Touch</h2>
-            <p>Email: imamrashford15@gmail.com</p>
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <h2 class="section-title">Education & Experience</h2>
+                <div class="skills-content">
+                    <div class="skills-column">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>Lagos State University Staff School</li>
+                            <li>University Of Ibadan</li>
+                        </ul>
+                    </div>
+                    <div class="skills-column">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li>Senior Web Developer at TechFlow Solutions</li>
+                            <li>Full-Stack Developer at StartupHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>E-Commerce Dashboard</h3>
+                        <p>A comprehensive admin dashboard built with React and Node.js.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Personal Portfolio</h3>
+                        <p>A modern, responsive portfolio website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Full Name" class="form-input">
+                    <input type="email" placeholder="Email Address" class="form-input">
+                    <textarea placeholder="Message" class="form-textarea"></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
         </section>
     </main>
 
