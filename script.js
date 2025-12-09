@@ -1,3 +1,4 @@
-console.log("Portfolio initialized");
-
-// Commit: Initial script file setup
+document.querySelector('.submit-button').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Message sent! (Simulation)');
+});
