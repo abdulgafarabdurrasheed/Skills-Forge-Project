@@ -28,7 +28,17 @@ To run this project locally, you need:
 
 Follow these steps to get the project up and running on your local machine:
 
-### Option 1: Direct File Open (Simplest)
+### Option 1: Direct Link Click (Simplest)
+
+**Click the following Link: https://skillsforge-project.netlify.app/**
+
+### Option 2: Direct File Open 
+
+
+3.  **Open `index.html`:**
+    Double-click the `index.html` file. It will open in your default web browser.
+
+### Option 2: Using VS Code Live Server (Recommended for Development)
 
 1.  **Clone or Download the Repository:**
     *   If you have Git installed:
@@ -40,25 +50,20 @@ Follow these steps to get the project up and running on your local machine:
 2.  **Navigate to the Project Folder:**
     Open the folder where you extracted the files.
 
-3.  **Open `index.html`:**
-    Double-click the `index.html` file. It will open in your default web browser.
-
-### Option 2: Using VS Code Live Server (Recommended for Development)
-
-1.  **Open the Project in VS Code:**
+3.  **Open the Project in VS Code:**
     Launch Visual Studio Code and open the project folder.
 
-2.  **Install "Live Server" Extension:**
+4.  **Install "Live Server" Extension:**
     *   Go to the Extensions view (Ctrl+Shift+X).
     *   Search for "Live Server" by Ritwick Dey.
     *   Click **Install**.
 
-3.  **Start the Server:**
+5.  **Start the Server:**
     *   Open `index.html` in the editor.
     *   Right-click anywhere in the file and select **"Open with Live Server"**.
     *   Alternatively, click the "Go Live" button at the bottom right corner of the VS Code window.
 
-4.  **View the Site:**
+6.  **View the Site:**
     The browser will automatically open (usually at `http://127.0.0.1:5500/index.html`), and you can see the running project.
 
 ## Project Structure
