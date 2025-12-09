@@ -32,11 +32,6 @@ Follow these steps to get the project up and running on your local machine:
 
 **Click the following Link: https://skillsforge-project.netlify.app/**
 
-### Option 2: Direct File Open 
-
-
-3.  **Open `index.html`:**
-    Double-click the `index.html` file. It will open in your default web browser.
 
 ### Option 2: Using VS Code Live Server (Recommended for Development)
 
