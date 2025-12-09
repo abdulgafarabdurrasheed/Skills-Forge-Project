@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Abdulgafar Abdurrasheed - Aspiring Full-Stack Web Developer">
     <title>Abdulgafar Abdurrasheed - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,55 +11,109 @@
     <header class="main-header">
         <div class="header-content">
             <h1 class="site-title">Abdulgafar Abdurrasheed</h1>
+            
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
             <nav class="main-nav">
                 <ul class="nav-list">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Education & Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Education & Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
+            
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-toggle-text">🌙 Dark</span>
+            </button>
         </div>
     </header>
 
     <main class="main-content">
-        <section id="home" class="home-section">
-            <div class="section-container">
+	<section id="home" class="home-section">
+            <div class="section-container" id="hhh">
                 <h2 class="section-title">Abdulgafar Abdurrasheed Olamilekan</h2>
+                
                 <div class="about-content">
-                    <img src="https://port0f0li0.netlify.app/1749916534675.jpg" alt="Profile" class="profile-image">
+                    <img src="https://port0f0li0.netlify.app/1749916534675.jpg" 
+                         alt="Rasheed Professional headshot" 
+                         class="profile-image">
+                    
                     <div class="about-text">
-                        <p>I craft beautiful, functional digital experiences that solve real problems.</p>
-                        <a href="My Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+			
+                        <p class="intro-paragraph">
+                            I craft beautiful, functional digital experiences that solve real problems. Passionate about Web Development, clean code, intuitive design, and innovative solutions.
+                        </p>
+                        <div class="interests-list">
+                            <h3>Key Interests</h3>
+                            <ul>
+                                <li>Web Development (React, Node.js)</li>
+                                <li>UI/UX Design</li>
+                                <li>Clean Code & Architecture</li>
+                                <li>Problem Solving & Innovation</li>
+                            </ul>
+                        </div>
+                         <div class="hero-buttons">
+                    <a
+                        href="My Resume.pdf"
+                        class="btn btn-primary"
+                        download
+                    >
+                        Download Resume
+                    </a>
+                </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        
         <section id="about" class="about-section">
             <div class="section-container">
                 <h2 class="section-title">About Me</h2>
-                <p>Hello! I’m a dedicated Computer Science student and aspiring full-stack web developer...</p>
+                    
+                    <div class="about-text">
+                        <p class="intro-paragraph">
+                            Hello! I’m Abdulgafar Abdurrasheed Olamilekon, a dedicated Computer Science student and aspiring full-stack web developer who is deeply passionate about technology, problem-solving, and self-development. My journey into programming began with curiosity. Exploring how code could automate tasks, solve everyday challenges, and turn ideas into real digital experiences. Over time, this curiosity grew into ambition, as I started building projects, learning new frameworks, and preparing for a future career in tech.</p>
+                        
+                        <p>
+                            My background is shaped by discipline, faith, and continuous self-improvement. I am committed to growing in seven areas of life: Physical, mental, emotional, academic, financial, spiritual, and Islamic development. Self-reflection, strategic planning, and Qur’an study play a significant role in keeping me grounded and focused. I aim to build technology that matters, share knowledge through storytelling, and inspire others to invest in becoming the best version of themselves. My interest in coding is not just about writing software, it is about building solutions and opportunities that can benefit others
+                        </p>
+                        
+                        <p>
+                            Outside academics, coding, and development, I enjoy gaming, chess, creative writing, and exploring ideas that challenge the mind. I love learning. From web technologies to personal growth to understanding people on a deeper emotional and intellectual level. Part of my motivation comes from wanting to nurture meaningful relationships, including improving communication, confidence, and emotional maturity. Driven by purpose and guided by faith, I see each day as a step toward a future where my skills, principles, and passions align to create impact and legacy
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="skills" class="skills-section">
             <div class="section-container">
                 <h2 class="section-title">Education & Experience</h2>
+                
                 <div class="skills-content">
                     <div class="skills-column">
-                        <h3>Education</h3>
-                        <ul>
-                            <li>Lagos State University Staff School</li>
-                            <li>University Of Ibadan</li>
+                        <h3 class="skills-subtitle">Education</h3>
+                        <ul class="skills-list">
+                            <li>Lagos State University Staff School(Primary Education)</li>
+                            <li>Riyadh Al-Quran(Islamic Education)</li>
+                            <li>Learn With Ease Science Academy(Secondary Education)</li>
+                            <li>University Of Ibadan - UI(University Education)</li>
                         </ul>
                     </div>
+                    
                     <div class="skills-column">
-                        <h3>Experience</h3>
-                        <ul>
-                            <li>Senior Web Developer at TechFlow Solutions</li>
-                            <li>Full-Stack Developer at StartupHub</li>
-                        </ul>
+                        <h3 class="skills-subtitle">Professional Experience(Hypothetical)</h3>
+                        <ol class="experience-list">
+                            <li>Senior Web Developer at TechFlow Solutions (2021-Present)</li>
+                            <li>Full-Stack Developer at StartupHub (2019-2021)</li>
+                            <li>Junior Developer at WebCraft Agency (2018-2019)</li>
+                            <li>Freelance Web Developer (2017-2018)</li>
+                        </ol>
                     </div>
                 </div>
             </div>
@@ -67,14 +122,63 @@
         <section id="projects" class="projects-section">
             <div class="section-container">
                 <h2 class="section-title">Featured Projects</h2>
+                
                 <div class="projects-grid">
                     <div class="project-card">
-                        <h3>E-Commerce Dashboard</h3>
-                        <p>A comprehensive admin dashboard built with React and Node.js.</p>
+                        <img src="https://landing.moqups.com/img/_optimized/templates/wireframes/ecommerce-dashboard-w400.jpeg"
+                             alt="E-commerce dashboard interface" 
+                             class="project-image">
+                        
+                        <div class="project-details">
+                            <h3 class="project-title">E-Commerce Dashboard</h3>
+                            <p>
+                                A comprehensive admin dashboard for managing online stores, built with React and Node.js. 
+                                Features include real-time analytics, inventory management, and customer relationship tools.
+                            </p>
+                            
+                            <p>
+                                <a href="https://github.com/abdulgafarabdurrasheed/calculator" class="external-link" target="_blank">View on GitHub</a> | 
+                                <a href="https://calc_me.netlify.app" class="external-link" target="_blank">Live Demo</a>
+                            </p>
+                        </div>
                     </div>
+
                     <div class="project-card">
-                        <h3>Personal Portfolio</h3>
-                        <p>A modern, responsive portfolio website.</p>
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop"
+                             alt="Portfolio website interface" 
+                             class="project-image">
+                        
+                        <div class="project-details">
+                            <h3 class="project-title">Personal Portfolio Website</h3>
+                            <p>
+                                A modern, responsive portfolio website showcasing projects and skills. 
+                                Built with HTML, CSS, and JavaScript featuring dark mode, smooth animations, and mobile-first design.
+                            </p>
+                            
+                            <p>
+                                <a href="https://github.com/abdulgafarabdurrasheed" class="external-link" target="_blank">View on GitHub</a> | 
+                                <a href="#home" class="external-link">Live Demo</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop"
+                             alt="Calculator application" 
+                             class="project-image">
+                        
+                        <div class="project-details">
+                            <h3 class="project-title">Advanced Calculator</h3>
+                            <p>
+                                A feature-rich calculator application with scientific operations, history tracking, and keyboard support. 
+                                Demonstrates proficiency in JavaScript logic and user interface design.
+                            </p>
+                            
+                            <p>
+                                <a href="https://github.com/abdulgafarabdurrasheed/calculator" class="external-link" target="_blank">View on GitHub</a> | 
+                                <a href="https://calc_me.netlify.app" class="external-link" target="_blank">Live Demo</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,16 +187,100 @@
         <section id="contact" class="contact-section">
             <div class="section-container">
                 <h2 class="section-title">Get In Touch</h2>
-                <form class="contact-form">
-                    <input type="text" placeholder="Full Name" class="form-input">
-                    <input type="email" placeholder="Email Address" class="form-input">
-                    <textarea placeholder="Message" class="form-textarea"></textarea>
-                    <button type="submit" class="submit-button">Send Message</button>
-                </form>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3 class="contact-subtitle">Let's Work Together</h3>
+                        <p>
+                            I'm always interested in hearing about new projects and opportunities. 
+                            Whether you have a specific project in mind or just want to chat about web development, 
+                            feel free to reach out!
+                        </p>
+                        
+
+                        <div class="card">
+                           <div class="banner">
+                              <div class="avatar"></div>
+                           </div>
+                        	<h3>Abdulgafar Abdurrasheed</h3>
+                           <a href="mailto:imamrashford15@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail lg:w-5 lg:h-5"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg> imamrashford15@gmail.com</a>
+                           <a href="tel:+2347041533008">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="lucide lucide-phone lg:w-5 lg:h-5"
+  >
+    <path
+      d="M22 16.92v3a2 2 0 0 1-2.18 2
+         19.79 19.79 0 0 1-8.63-3.07
+         19.5 19.5 0 0 1-6-6
+         19.79 19.79 0 0 1-3.07-8.67
+         A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72
+         12.84 12.84 0 0 0 .7 2.81
+         2 2 0 0 1-.45 2.11L8.09 9.91
+         a16 16 0 0 0 6 6l1.27-1.27
+         a2 2 0 0 1 2.11-.45
+         12.84 12.84 0 0 0 2.81.7
+         A2 2 0 0 1 22 16.92z"
+    />
+  </svg> 07041533008
+</a>
+			<ul>
+	   			<a href="https://github.com/abdulgafarabdurrasheed"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github lg:w-5 lg:h-5"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
+				<a href="https://www.linkedin.com/in/abdurrasheed-abdulgafar-827605304"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin lg:w-5 lg:h-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+				<a href="mailto:imamrashford15@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail lg:w-5 lg:h-5"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
+   			</ul>
+                        </div>
+
+                    </div>
+                    
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="footer-text">&copy; 2025 Lekan. All rights reserved.</p>
+            <div class="footer-links">
+            <ul>
+	   			<a href="https://github.com/abdulgafarabdurrasheed"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github lg:w-5 lg:h-5"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
+				<a href="https://www.linkedin.com/in/abdurrasheed-abdulgafar-827605304"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin lg:w-5 lg:h-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+				<a href="mailto:imamrashford15@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail lg:w-5 lg:h-5"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
+   			</ul>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
+    
+    <script src="script.js" defer></script>
 </body>
 </html>
